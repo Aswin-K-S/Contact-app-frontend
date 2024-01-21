@@ -1,0 +1,56 @@
+.background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(
+        650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%
+      ),
+      radial-gradient(
+        1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%
+      );
+      min-height: 90vh;
+  }
+  
+  #radius-shape-1 {
+    height: 30.136986301369863vh;
+    width: 14.322916666666666vw;
+    top: 12.32876712328767vh;
+    left: 57.05729166666667vw;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+  #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -65.41095890410959vh;
+    right: -53.244791666666664vw;
+    width:34.24657534246575vh;
+    height: 16.276041666666668vw;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+
+  .content{
+    color: white;
+    position: relative;
+    top: 30.24657534246575vh;
+    left: 7.8125vw;
+    
+  }
+  .content h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  .content p{
+    margin-top: 60px;
+    color: #8191B1;
+    text-align: justify;
+    width:600px;
+  }

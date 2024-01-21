@@ -1,0 +1,47 @@
+.background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(
+        650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%
+      ),
+      radial-gradient(
+        1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%
+      );
+      min-height: 90vh;
+  }
+  
+  #radius-shape-3 {
+    height: 30.136986301369863vh;
+    width: 14.322916666666666vw;
+    top: 12.32876712328767vh;
+    left: 67.05729166666667vw;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+  #radius-shape-4 {
+    height: 30.136986301369863vh;
+    width: 14.322916666666666vw;
+    top: -7.32876712328767vh;
+    left: 17.05729166666667vw;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+ 
+  .content .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(800%) blur(8px);
+    position: relative;
+    top:  -27.397260273972602vh;
+    left:  17.578125vw;
+    margin-bottom: 150px;
+  }
+ 

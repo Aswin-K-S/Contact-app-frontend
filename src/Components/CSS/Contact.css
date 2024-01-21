@@ -1,0 +1,11 @@
+.column-with-padding {
+    padding-left: -20px; /* Adjust the value as needed */
+  }
+.bttn{
+    transition: .2s linear;
+    cursor: pointer;
+}
+.bttn:hover{
+    transform: translateY(-5px);
+    transform: scale(10px);
+}

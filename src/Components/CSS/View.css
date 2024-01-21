@@ -1,0 +1,9 @@
+.content .bg-glass {
+    background-color: hsla(209, 82%, 89%, 0.9) ;
+    backdrop-filter: saturate(800%) blur(8px);
+    position: relative;
+    top:  -27.397260273972602vh;
+    left:  17.578125vw;
+    margin-bottom: 150px;
+  }
+ 
